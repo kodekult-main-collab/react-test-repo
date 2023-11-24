@@ -1,0 +1,342 @@
+footer {
+    background: violet;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.footer-bg {
+    /* background: url('../images/footerbg.webp') no-repeat; */
+    background-position: top center;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 0;
+}
+
+.footer-bg.amina {
+    top: 0 !important;
+}
+
+footer .slide-up {
+    opacity: 0;
+    transform: translateY(50px);
+}
+
+footer .container-fluid {
+    height: 100vh;
+    align-self: middle;
+    position: relative;
+    background: transparent;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.footer-heading h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 90px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.footer-hr {
+    width: 0px;
+    border: 1px solid #FFFFFF;
+}
+
+
+.slide-up2 {
+    opacity: 0;
+    transform: translateY(25px);
+}
+
+.slide-up3 {
+    opacity: 0;
+    transform: translateY(15px);
+}
+
+.footer-logo-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.footer-logo-container h4 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.footer-logo-container h5 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: left;
+    color: #B2E219;
+}
+
+input.newsletter-input {
+    width: 100%;
+    border-radius: 35px;
+    padding-left: 35px;
+    max-width: 360px;
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: left;
+    letter-spacing: 0.04em;
+    color: #C4C4C4;
+}
+
+.newsletter-btn {
+
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #122051;
+    padding: 13px 30px;
+    background: #B2E219;
+    border-radius: 100px;
+}
+
+
+
+
+footer ul.footer-menu {
+    padding:0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer ul.footer-menu li {
+    /* margin:0px 10px; */
+    display: inline-flex;
+    gap: 0px;
+}
+
+footer ul.footer-menu li a {    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 18px;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    margin:0px 16px;
+    /* padding-right: 70px; */
+    /* padding-left: -10px; */
+    /* gap: 5px; */
+}
+
+
+.copytight-text {
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+
+footer ul.social-icons {
+    padding:0px;
+    display: flex;
+    justify-content: center;
+}
+
+footer ul.social-icons li {
+    margin:0px 20px;
+    display: inline-flex;
+    gap: 10px;
+}
+
+footer hr {
+    border-color: rgba(241, 21, 118, 0.4);
+    opacity: 1;
+    margin-top: 0.5rem;
+}
+
+.hr-first {
+    margin-left: 10%;
+}
+
+.footermobile-view {
+    display: none;
+}
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 768px)  {
+    footer .container-fluid.desktop, footer .footer-bg { 
+        display: none;
+    }    
+
+    .footerdesktop-view{
+        display: none;
+    }
+    
+}
+
+
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 768px)  {
+
+.footer{
+    /* background-image: url('../images/footer-bg-mb.webp'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/* .footermobile-view .footer-logo-container {
+    display: flex
+} */
+
+.footermobile-view {
+    display: block;
+}
+
+.footer-logo-container h4 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    text-align: left;;
+}
+
+.footer-logo-container h5 {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px !important;
+    line-height: 17px !important;
+    text-align: left;
+    color: #B2E219 !important;
+    
+}
+
+
+footer ul.footer-menu {
+    padding-left:20px;
+    display: block;
+}
+
+footer ul.footer-menu li {
+    /* margin:0px 10px; */
+    display: block;
+}
+
+footer ul.footer-menu li a {    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+
+.marginright{
+    margin-right: 10px !important;
+}
+.footermobile-view .form-control{
+    border-radius: 40px !important;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    /* padding: 8px ; */
+}
+.contact-btn{
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+.footermobile-view ul.footer-menu li{
+   padding-bottom: 30px !important;
+   list-style-type: none;
+} 
+.footermobile-view ul.footer-menu li a {    
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 22px;
+   
+    color: #FFFFFF;
+    text-decoration: none;
+    /* padding-right: 70px; */
+    /* padding-left: -10px; */
+    /* gap: 5px; */
+}
+.footermobile-view .newsletter-btn{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-weight: 600 !important;
+    font-size: 18px !important;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em !important;
+    }
+
+.footer-logo-container img{
+    margin: auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    }   
+
+}
+
+
+
+@media only screen  and (min-device-width : 320px) and (max-device-width : 365px)  {
+    .footer-logo-container {
+        gap: 0px;
+    }
+
+    .footer-logo-container img{
+        margin: auto;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .footer-logo-container h4 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+
+    .footer-logo-container h5 {
+        font-size: 12px !important;
+        line-height: 15px !important;
+    }
+
+    .marginright {
+        margin-right:0px;
+        padding: 0px;
+    }
+
+    footer ul.footer-menu {
+        padding-left: 0px;
+    }
+}
+

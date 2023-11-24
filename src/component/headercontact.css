@@ -1,0 +1,301 @@
+header.contact-header {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%);
+    background: url('../images/header-contact.webp') no-repeat top left;
+    background-size: cover;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 35px;
+}
+
+
+header.contact-header .hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+header.contact-header .hero-content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header.contact-header .hero-text {
+    position: relative;
+    text-align: center;
+}
+
+header.contact-header .hero-text h2 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 65px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    color: #BEBEBE;
+}
+
+header.contact-header .hero-text span img {
+    width: 42px;
+    margin: 0 5px;
+}
+
+header.contact-header .hero-text p {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 21px;
+    line-height: 29px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+header.contact-header .hero-text h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 118px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+/* header.header-home .navbar-nav a {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #B2E219;
+} */
+
+header.contact-header .text-slide {
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: content-box;
+    transform-origin: center;
+    padding: 0px 0px;
+    height: 110px;
+    /* object-fit: cover; */
+}
+
+header.contact-header .text-slide-box {
+    overflow: hidden;
+}
+
+header.contact-header .text-slider {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    min-height: 130px;
+    /* gap: 20px; */
+}
+
+
+header.contact-header .text-slider.gap {
+    gap: 20px;
+}
+
+header.contact-header .text-slider img {
+    height: 100%;
+    width: auto;
+    align-self: center;
+}
+
+
+
+
+
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 880px) {
+    header.contact-header .hero-text h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    header.contact-header .hero-text h3 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    /* .contact-header .hero-content{
+        margin-top: -300px;
+        margin-bottom: -300px !important;
+        
+
+    } */
+    .contact-header .contactmobile-viewpara {
+        font-weight: 700;
+        font-size: 12px !important;
+        line-height: 14px !important;
+        /* or 50% */
+        margin-top: -40px;
+        text-align: center;
+    }
+
+    header.contact-header .hero {
+        min-height: 30vh;
+        position: relative;
+
+
+    }
+
+    header.contact-header .hero-text {
+
+        height: 40%;
+
+        position: relative;
+        top: 100% !important;
+
+
+    }
+
+    .contact-header .contactmobileviewheading {
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 27px !important;
+        /* or 112% */
+
+        text-align: center;
+        letter-spacing: 0.01em !important;
+    }
+
+    .contact-header {
+        margin-bottom: 80px !important;
+    }
+}
+
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+
+    header.contact-header .hero-text h2 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+
+    header.contact-header .hero-text h3 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 768px) {
+    header.contact-header {
+        width: 100%;
+        height: 100%;
+        min-height: 25vh;
+        background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%);
+        background: url('../images/about-bg.webp') no-repeat top left;
+        background-size: cover;
+    }
+
+    .contact-header .contactdesktop-viewheading,
+    .contactmobile-view,
+    .contactdesktop-viewpara {
+        display: none;
+    }
+
+    /* .header.contact-header .hero {
+        min-height: 50vh !important;
+        position: relative;
+    
+    } */
+    /* .contact-header .hero-content {
+        margin-top: -300px !important;
+        margin-bottom: -300px !important; 
+        padding-bottom: -300px !important;
+         position: relative;
+        top: 0%; 
+
+    } */
+    header.contact-header .hero-content {
+        position: absolute;
+        top: -50%;
+     
+        
+    }
+    
+    .contact-header .contactmobile-viewheading {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 27px;
+        /* or 112% */
+
+        text-align: center;
+        letter-spacing: 0.01em;
+
+        color: #BEBEBE;
+
+    }
+
+    .contact-header .contactmobile-viewpara {
+        font-family: 'Gotham';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10px;
+        line-height: 5px;
+        /* or 50% */
+
+        text-align: center;
+
+        color: #FFFFFF;
+    }
+
+    .contact-header .contactmobileviewheading {
+        font-weight: 600 !important;
+        font-size: 24px !important;
+        line-height: 27px !important;
+        /* or 112% */
+
+        text-align: center;
+        letter-spacing: 0.01em !important;
+    }
+
+    .hero-text img {
+        width: 16px !important;
+        height: 10px;
+    }
+}
+
+@media (min-width: 1030px) and (max-width: 1990px) {
+
+    .contact-header .contactmobile-viewheading,
+    .contactmobile-viewpara {
+        display: none;
+    }
+}
+
+/* For 1024 Resolution */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+}
+
+@media (min-width: 1030px) and (max-width: 1370px) {}
+
+
+@media only screen and (min-width: 1371px) and (max-width: 1605px) {}
+
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {}
+
+@media only screen and (min-width: 1920px) {}

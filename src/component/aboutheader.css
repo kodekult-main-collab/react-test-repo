@@ -1,0 +1,10 @@
+.about-header {
+    background: #FFFFFF;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-header h2 {
+    color: #000;
+    text-align: center;
+}

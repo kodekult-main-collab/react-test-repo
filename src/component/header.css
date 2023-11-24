@@ -1,0 +1,235 @@
+header.header-home {
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%);
+    background: url('../images/home-bg.webp') no-repeat top left;
+    background-size: cover;
+}
+
+
+header.header-home .hero {
+    min-height: 100vh;
+    position: relative;
+
+}
+
+header.header-home .hero-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+header.header-home .hero-text {
+    position: relative;
+    text-align: center;
+}
+
+header.header-home .hero-text h2 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 74px;
+    text-align: center;
+    color: #BEBEBE;
+}
+
+header.header-home .hero-text h3 {
+    font-family: 'Clash Display';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 96px;
+    line-height: 118px;
+    text-align: center;
+    letter-spacing: 0.01em;
+    align-self: center;
+    color: #FFFFFF;
+}
+
+/* header.header-home .navbar-nav a {
+    font-family: 'Gotham';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #B2E219;
+} */
+
+header.header-home .text-slide {
+    width: auto;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: content-box;
+    transform-origin: center;
+    padding: 0px 0px;
+    height: 110px;
+    /* object-fit: cover; */
+}
+
+header.header-home .text-slide {
+    overflow: hidden;
+}
+
+header.header-home .text-slider {
+    display: flex;
+    vertical-align: top;
+    justify-content: center;
+    min-height: 110px;
+    margin-bottom: 20px;
+}
+
+
+header.header-home .text-slider.gap {
+    gap: 20px;
+}
+
+header.header-home .text-slider img {
+    height: 100%;
+    width: auto;
+    align-self: center;
+}
+
+
+
+/* @media only screen  and (min-device-width : 320px) and (max-device-width : 480px)  { 
+    header.header-home {
+        min-height: 70vh;
+        height: 70vh;
+        background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%); 
+        background: url('../images/headerbg-mb.webp') no-repeat top left;
+        background-size: cover;
+    }
+
+} */
+
+
+/* For 480 Resolution */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    header.header-home {
+        min-height: 38vh;
+        height: 38vh;
+        background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%);
+        background: url('../images/about-bg.webp') no-repeat top left;
+        background-size: cover;
+    }
+
+
+    header.header-home .hero {
+        min-height: 100%;
+        position: relative;
+
+    }
+
+    header.header-home .hero-content {
+        position: absolute;
+        top: 59%;
+    }
+
+    header.header-home .hero-text h2 {
+        font-size: 28px;
+        line-height: 28px;
+        max-width: 260px;
+        margin: auto;
+    }
+
+    header.header-home .hero-text h3 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    header.header-home .text-slider img {
+        width: 7px;
+        height: 15px;
+    }
+
+    header.header-home .text-slider {
+        max-height: 40px;
+        min-height: 40px;
+    }
+
+    header.header-home .applynow-btn {
+        margin-top: 10px;
+        /* margin-bottom: 10px; */
+        font-size: 14px;
+        line-height: 17px;
+        padding: 13px 32px;
+    }
+}
+
+
+/* For 640 Resolution */
+@media only screen and (min-device-width : 481px) and (max-device-width : 640px) {
+
+    header.header-home {
+        min-height: 70vh;
+        height: 70vh;
+        background: linear-gradient(187deg, rgba(0, 0, 0, 1) 5.67%, rgba(0, 0, 0, 0.488542) 25.88%, rgba(0, 0, 0, 0) 60.38%);
+        background: url('../images/headerbg-mb.webp') no-repeat top left;
+        background-size: cover;
+    }
+
+    header.header-home .hero {
+        min-height: 100%;
+        position: relative;
+
+    }
+
+    header.header-home .hero-text h2 {
+        font-size: 28px;
+        line-height: 28px;
+        max-width: 260px;
+        margin: auto;
+    }
+
+    header.header-home .hero-text h3 {
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+    header.header-home .text-slider img {
+        width: 7px;
+        height: 15px;
+    }
+
+    header.header-home .text-slider {
+        max-height: 40px;
+        min-height: 40px;
+    }
+
+
+
+    header.header-home .applynow-btn {
+        margin-top: 30px;
+        font-size: 14px;
+        line-height: 17px;
+        padding: 13px 32px;
+    }
+
+}
+
+
+/* For 1024 Resolution */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    /* STYLES GO HERE */
+}
+
+@media (min-width: 1030px) and (max-width: 1370px) {}
+
+
+@media only screen and (min-width: 1371px) and (max-width: 1605px) {}
+
+
+@media only screen and (min-width: 1680px) and (max-width: 1919px) {}
+
+@media only screen and (min-width: 1920px) {}
+
+
+
